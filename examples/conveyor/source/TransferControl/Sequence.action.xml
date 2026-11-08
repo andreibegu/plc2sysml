@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ExportFile>
+  <List2 Name="ExportedObjects">
+    <Single>
+      <Single Name="MetaObject">
+        <Single Name="Name">Sequence</Single>
+        <Single Name="Guid">{44444444-4444-4444-8444-444444444444}</Single>
+      </Single>
+      <Single Name="Object" Type="{8ac092e5-3128-4e26-9e7e-11016c6684f2}">
+        <Single Name="Implementation">
+          <Single Type="{f1db7f6f-4774-46a6-ad9b-a94414f875fc}">
+            <List2 Name="ElementList">
+              <List2 Name="InnerList">
+                <Single Type="{86ee92a2-d863-4136-be27-82b36d84211c}">
+                  <Single Name="Id">waiting</Single>
+                  <List2 Name="Attributes">
+                    <Single>
+                      <Single Name="AttributeId">38391c6d-6d4a-42f8-8ee7-9f45e5adafa8</Single>
+                      <Single Name="Value">
+                        <String Name="Value">Waiting</String>
+                      </Single>
+                    </Single>
+                    <Single>
+                      <Single Name="AttributeId">6844a48e-46c2-4cc8-a185-a478f3b99cc0</Single>
+                      <Single Name="Value">
+                        <String Name="Value">TRUE</String>
+                      </Single>
+                    </Single>
+                  </List2>
+                </Single>
+                <Single Type="{4ecb29e8-a90a-4646-84ac-2ff54215ab29}">
+                  <Single Name="Id">start</Single>
+                  <List2 Name="Attributes">
+                    <Single>
+                      <Single Name="AttributeId">38391c6d-6d4a-42f8-8ee7-9f45e5adafa8</Single>
+                      <Single Name="Value">
+                        <String Name="Value">ready</String>
+                      </Single>
+                    </Single>
+                  </List2>
+                </Single>
+                <Single Type="{86ee92a2-d863-4136-be27-82b36d84211c}">
+                  <Single Name="Id">transfer</Single>
+                  <List2 Name="Attributes">
+                    <Single>
+                      <Single Name="AttributeId">38391c6d-6d4a-42f8-8ee7-9f45e5adafa8</Single>
+                      <Single Name="Value">
+                        <String Name="Value">Transfer</String>
+                      </Single>
+                    </Single>
+                  </List2>
+                  <List2 Name="ElementList">
+                    <List2 Name="InnerList">
+                      <Single Type="{a94bb75d-5fb3-40ad-9d01-41d5b980784d}">
+                        <Single Name="Id">active</Single>
+                        <List2 Name="Attributes">
+                          <Single>
+                            <Single Name="AttributeId">38391c6d-6d4a-42f8-8ee7-9f45e5adafa8</Single>
+                            <Single Name="Value">
+                              <String Name="Value">active</String>
+                            </Single>
+                          </Single>
+                          <Single>
+                            <Single Name="AttributeId">e174fc0d-80b0-4a9e-a530-ca239c249a50</Single>
+                            <Single Name="Value">
+                              <String Name="Value">N</String>
+                            </Single>
+                          </Single>
+                        </List2>
+                      </Single>
+                    </List2>
+                  </List2>
+                </Single>
+                <Single Type="{4ecb29e8-a90a-4646-84ac-2ff54215ab29}">
+                  <Single Name="Id">finish</Single>
+                  <List2 Name="Attributes">
+                    <Single>
+                      <Single Name="AttributeId">38391c6d-6d4a-42f8-8ee7-9f45e5adafa8</Single>
+                      <Single Name="Value">
+                        <String Name="Value">atExit</String>
+                      </Single>
+                    </Single>
+                  </List2>
+                </Single>
+                <Single Type="{7e39ac27-154f-419a-a255-6a6cf37d5ed0}">
+                  <Single Name="Id">return</Single>
+                  <List2 Name="Attributes">
+                    <Single>
+                      <Single Name="AttributeId">38391c6d-6d4a-42f8-8ee7-9f45e5adafa8</Single>
+                      <Single Name="Value">
+                        <String Name="Value">Waiting</String>
+                      </Single>
+                    </Single>
+                  </List2>
+                </Single>
+              </List2>
+            </List2>
+          </Single>
+        </Single>
+      </Single>
+    </Single>
+  </List2>
+</ExportFile>

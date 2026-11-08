@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ExportFile>
+  <List2 Name="ExportedObjects">
+    <Single>
+      <Single Name="MetaObject">
+        <Single Name="Name">MainTask</Single>
+        <Single Name="Guid">{55555555-5555-4555-8555-555555555555}</Single>
+      </Single>
+      <Single Name="Object" Type="{6f9b1be3-64fd-4306-a824-fde245ba6f3d}">
+        <Single Name="Kindoftask">Cyclic</Single>
+        <List2 Name="PouList">
+          <Single>
+            <String Name="Name">Main</String>
+          </Single>
+        </List2>
+      </Single>
+    </Single>
+  </List2>
+</ExportFile>

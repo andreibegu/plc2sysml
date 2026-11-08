@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ExportFile>
+  <List2 Name="ExportedObjects">
+    <Single>
+      <Single Name="MetaObject">
+        <Single Name="Name">ReadPermit</Single>
+        <Single Name="Guid">{22222222-2222-4222-8222-222222222222}</Single>
+      </Single>
+      <Single Name="Object" Type="{8ac092e5-3128-4e26-9e7e-11016c6684f2}">
+        <Single Name="Implementation">
+          <List2 Name="NetworkList">
+            <List2 Name="InnerList">
+              <Single>
+                <List2 Name="NetworkItems">
+                  <Single>
+                    <Single Name="RValue">
+                      <String Name="Operand">doorClosed</String>
+                    </Single>
+                    <Single Name="OutputItems">
+                      <List2 Name="OutputItems">
+                        <Single>
+                          <String Name="Operand">permit</String>
+                        </Single>
+                      </List2>
+                    </Single>
+                  </Single>
+                </List2>
+              </Single>
+            </List2>
+          </List2>
+        </Single>
+      </Single>
+    </Single>
+  </List2>
+</ExportFile>

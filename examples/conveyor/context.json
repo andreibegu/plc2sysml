@@ -1,0 +1,35 @@
+{
+  "physical_model": "physical",
+  "root_definition": "CellStructure::Cell",
+  "system_name": "TransferCell",
+  "bindings": [
+    {
+      "source": "IO.inSensor",
+      "targets": [
+        "conveyor.entrySensor"
+      ],
+      "name": "atEntry"
+    },
+    {
+      "source": "IO.outSensor",
+      "targets": [
+        "conveyor.exitSensor"
+      ],
+      "name": "atExit"
+    },
+    {
+      "source": "IO.doorSensor",
+      "targets": [
+        "conveyor.doorSwitch"
+      ],
+      "name": "doorClosed"
+    },
+    {
+      "source": "IO.motorCmd",
+      "targets": [
+        "conveyor.drive"
+      ],
+      "name": "motor"
+    }
+  ]
+}
