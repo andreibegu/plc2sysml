@@ -41,6 +41,14 @@
                 </Single>
               </Single>
               <Single>
+                <Single Name="Text">
+                  <String Name="Text">IO.downstreamBusy</String>
+                </Single>
+                <Single Name="Output">
+                  <Single Name="Id">input-4</Single>
+                </Single>
+              </Single>
+              <Single>
                 <List2 Name="Inputs">
                   <List2 Name="InnerList">
                     <Single>
@@ -51,6 +59,14 @@
                     </Single>
                     <Single>
                       <Single Name="Id">doorClosed</Single>
+                    </Single>
+                    <Single>
+                      <Single Name="Id">downstreamFree</Single>
+                      <Single Name="Negated">TRUE</Single>
+                    </Single>
+                    <Single>
+                      <Single Name="Id">exitClear</Single>
+                      <Single Name="Negated">TRUE</Single>
                     </Single>
                   </List2>
                 </List2>
@@ -71,6 +87,12 @@
                     </Single>
                     <Single>
                       <String Name="Text">doorClosed</String>
+                    </Single>
+                    <Single>
+                      <String Name="Text">downstreamFree</String>
+                    </Single>
+                    <Single>
+                      <String Name="Text">exitClear</String>
                     </Single>
                     <Single>
                       <String Name="Text">motor</String>
@@ -111,6 +133,14 @@
               <Single>
                 <Single Name="SourcePinId">motor</Single>
                 <Single Name="DestPinId">output</Single>
+              </Single>
+              <Single>
+                <Single Name="SourcePinId">input-4</Single>
+                <Single Name="DestPinId">downstreamFree</Single>
+              </Single>
+              <Single>
+                <Single Name="SourcePinId">input-2</Single>
+                <Single Name="DestPinId">exitClear</Single>
               </Single>
             </List2>
           </List2>

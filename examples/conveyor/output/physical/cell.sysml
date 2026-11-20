@@ -5,6 +5,7 @@ package CellStructure {
     part def Conveyor {
         part entrySensor : Sensor;
         part exitSensor : Sensor;
+        part downstreamSensor : Sensor;
         part doorSwitch : DoorSwitch;
         part drive : Drive;
     }

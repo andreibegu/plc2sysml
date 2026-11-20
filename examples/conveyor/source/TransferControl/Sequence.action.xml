@@ -82,6 +82,28 @@
                     </Single>
                   </List2>
                 </Single>
+                <Single Type="{86ee92a2-d863-4136-be27-82b36d84211c}">
+                  <Single Name="Id">clear-exit</Single>
+                  <List2 Name="Attributes">
+                    <Single>
+                      <Single Name="AttributeId">38391c6d-6d4a-42f8-8ee7-9f45e5adafa8</Single>
+                      <Single Name="Value">
+                        <String Name="Value">ClearExit</String>
+                      </Single>
+                    </Single>
+                  </List2>
+                </Single>
+                <Single Type="{4ecb29e8-a90a-4646-84ac-2ff54215ab29}">
+                  <Single Name="Id">clear</Single>
+                  <List2 Name="Attributes">
+                    <Single>
+                      <Single Name="AttributeId">38391c6d-6d4a-42f8-8ee7-9f45e5adafa8</Single>
+                      <Single Name="Value">
+                        <String Name="Value">NOT atExit</String>
+                      </Single>
+                    </Single>
+                  </List2>
+                </Single>
                 <Single Type="{7e39ac27-154f-419a-a255-6a6cf37d5ed0}">
                   <Single Name="Id">return</Single>
                   <List2 Name="Attributes">

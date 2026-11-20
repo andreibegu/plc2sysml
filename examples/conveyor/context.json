@@ -25,6 +25,13 @@
       "name": "doorClosed"
     },
     {
+      "source": "IO.downstreamBusy",
+      "targets": [
+        "conveyor.downstreamSensor"
+      ],
+      "name": "downstreamBusy"
+    },
+    {
       "source": "IO.motorCmd",
       "targets": [
         "conveyor.drive"

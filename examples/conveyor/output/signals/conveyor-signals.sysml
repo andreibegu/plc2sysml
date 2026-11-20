@@ -4,6 +4,10 @@ package ConveyorSignals {
             out item doorClosed : TransferCellSignalTypes::BooleanSignal;
         }
 
+        part downstreamSensor :>> downstreamSensor {
+            out item downstreamBusy : TransferCellSignalTypes::BooleanSignal;
+        }
+
         part drive :>> drive {
             in item motor : TransferCellSignalTypes::BooleanSignal;
         }

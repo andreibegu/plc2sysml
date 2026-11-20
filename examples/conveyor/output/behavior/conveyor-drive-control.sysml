@@ -1,15 +1,15 @@
 package conveyor_driveControl {
     private import TransferCellControl::ControlStep;
-    private import TransferCell::Cell;
     private alias motor for TransferCell::cell::conveyor::drive::motor;
 
     part def Control {
         in item atEntry : TransferCellSignalTypes::BooleanSignal;
         in item atExit : TransferCellSignalTypes::BooleanSignal;
+        in item doorClosed : TransferCellSignalTypes::BooleanSignal;
+        in item downstreamBusy : TransferCellSignalTypes::BooleanSignal;
 
-        in attribute stored_permit : ScalarValues::Boolean;
-        dependency from stored_permit
-            to Cell::conveyor::doorSwitch::doorClosed;
+        derived attribute ready : ScalarValues::Boolean =
+            atEntry.value and doorClosed.value and not downstreamBusy.value and not atExit.value;
 
         exhibit state sequence {
             entry; then Waiting;
@@ -17,13 +17,19 @@ package conveyor_driveControl {
             state Waiting;
             transition first Waiting
                 accept ControlStep
-                if atEntry.value and stored_permit
+                if ready
                 then Transfer;
 
             state Transfer;
             transition first Transfer
                 accept ControlStep
                 if atExit.value
+                then ClearExit;
+
+            state ClearExit;
+            transition first ClearExit
+                accept ControlStep
+                if not atExit.value
                 then Waiting;
         }
 

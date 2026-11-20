@@ -14,7 +14,15 @@
                 <List2 Name="NetworkItems">
                   <Single>
                     <Single Name="RValue">
-                      <String Name="Operand">doorClosed</String>
+                      <Single Name="BoxType">AND</Single>
+                      <List2 Name="InputItems">
+                        <Single>
+                          <String Name="Operand">doorClosed</String>
+                        </Single>
+                        <Single>
+                          <String Name="Operand">downstreamFree</String>
+                        </Single>
+                      </List2>
                     </Single>
                     <Single Name="OutputItems">
                       <List2 Name="OutputItems">

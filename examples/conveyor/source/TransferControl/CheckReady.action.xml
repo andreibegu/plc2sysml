@@ -17,10 +17,18 @@
                       <Single Name="BoxType">AND</Single>
                       <List2 Name="InputItems">
                         <Single>
-                          <String Name="Operand">atEntry</String>
+                          <Single Name="BoxType">AND</Single>
+                          <List2 Name="InputItems">
+                            <Single>
+                              <String Name="Operand">atEntry</String>
+                            </Single>
+                            <Single>
+                              <String Name="Operand">permit</String>
+                            </Single>
+                          </List2>
                         </Single>
                         <Single>
-                          <String Name="Operand">permit</String>
+                          <String Name="Operand">exitClear</String>
                         </Single>
                       </List2>
                     </Single>
